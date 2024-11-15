@@ -11,9 +11,6 @@
 Se trata de un sistema de gestión de accidentes laborales, donde el usuario podrá cargar actas de accidentes, pudiendo seleccionar el empleado afectado, motivo y tipo de accidente. A su vez podrá cargar la zona y parte afectada.
 Este sistema fue desarrollado en el lenguaje de programación Java a través del IDE NetBeans conectando con una base de datos SQL usando PostgreSQL con la interfaz grafica pgadmin4.
 
-![DER FINAL](https://github.com/user-attachments/assets/5c37c05f-447e-4ac6-bb5a-4c3c4ba4a902)
-
-
 ## Herramientas utilizadas
 
 1. Declaraciones y asignaciones
@@ -152,6 +149,9 @@ ALTER TABLE IF EXISTS public.zona_cuerpo
 
 END;
 ```
+![DER FINAL](https://github.com/user-attachments/assets/44a0c468-6ebe-48da-b1f0-926dfa1bc580)
+
+
 ### Integracion con NetBeans
 
 Creamos la clase ConnectDB haciendo referencia al archivo .env con la herramienta dotenv.
