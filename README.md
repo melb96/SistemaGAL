@@ -1,4 +1,4 @@
-# Trabajo Practico Final - PyL3
+<h1 align="center"> Trabajo Practico Final - PyL3
 
 ## Integrantes:
 
@@ -8,7 +8,7 @@
 
 ## Descripción de proyecto
 
-Se trata de un sistema de gestion de accidentes laborales, donde el usuario podrá cargar actas de accidentes, pudiendo seleccionar el empleado afectado, motivo y tipo de accidente. A su vez podrá cargar la zona y parte afectada.
+Se trata de un sistema de gestión de accidentes laborales, donde el usuario podrá cargar actas de accidentes, pudiendo seleccionar el empleado afectado, motivo y tipo de accidente. A su vez podrá cargar la zona y parte afectada.
 Este sistema fue desarrollado en el lenguaje de programación Java a través del IDE NetBeans conectando con una base de datos SQL usando PostgreSQL con la interfaz grafica pgadmin4.
 
 ## Herramientas utilizadas
@@ -194,3 +194,29 @@ POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
 URL= jdbc:postgresql://localhost:5432/SGAL
 ```
+
+### Informacion adicional del proyecto
+
+Nuestro proyecto esta organizado en paquetes, donde tenemos plasmados controladores, que son interfaces para cada uno de los objetos con sus respectivos métodos abstractos para luego ser implementados en cada uno de los controladores correspondientes.
+Hicimos uso de grillas para setear las tablas usadas en cada JFrame / JInternalFrame.
+
+En cuanto a la interfaz grafica, es bastante sencilla buscando tener una vista agradable y con poca saturación para el usuario.
+
+# Guia para el usuario
+
+## Paso a paso de como ingresar un accidente
+
+Es importante saber, que para dar de alta un accidente, primero se deben realizar los siguientes puntos:
+
+1. Agregar un empleado
+2. Agregar un tipo de accidente
+3. Agregar un motivo
+4. Agregar una parte del cuerpo afectada
+
+Luego podemos ingresar nuestro accidente indicando los datos solicitados, en este caso legajo de empleado, codigo de tipo accidente, codigo de motivo y fecha.
+
+Una vez cargado el accidente, desde el ABM Zona cuerpo cargamos la zona del cuerpo afectada y automáticamente se relaciona con la parte del cuerpo seleccionada. 
+
+### Fin de readme
+
+Para finalizar este archivo, queremos dar las gracias a los docentes de la catedra por brindarnos el conocimiento necesario para llevar a cabo este proyecto.
