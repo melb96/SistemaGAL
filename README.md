@@ -3,8 +3,8 @@
 ## Integrantes:
 
  - ### Luna Bazán Mateo Emanuel - ELSI597
-  - ### Romero Fabio Reneé
-  - ### Vedia Victor Alejandro
+  - ### Romero Fabio Reneé - ELSI623
+  - ### Vedia Victor Alejandro - ELSI757
 
 ## Descripción de proyecto
 
@@ -149,6 +149,9 @@ ALTER TABLE IF EXISTS public.zona_cuerpo
 
 END;
 ```
+
+### Diagrama Entidad Relación
+
 ![DER FINAL](https://github.com/user-attachments/assets/44a0c468-6ebe-48da-b1f0-926dfa1bc580)
 
 
